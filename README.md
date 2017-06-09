@@ -8,7 +8,7 @@ I built this for a checkout page, and seems to still be really useful to me!
 Add js-non-sticky column to the column you want the sticky column to follow and your job is done!
 
 ```javascript
-  stickColumn({
+  stickyColumn({
     nonStickyColumn: $('.js-non-sticky-column'),
     stickyColumn: $('.js-sticky-column'),
   });
